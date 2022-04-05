@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie Tickets</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Movies: </h1>
+    <form id="new-movie">
+      <div class="movieone">
+        <h5>First Movie</h5>
+        <label class="first-movie-time-one"></label>
+        <input type="radio" name="time" value="movieone-timeone" checked>
+        <label class="first-movie-time-two"></label>
+        <input type="radio" name="time" value="movieone-timetwo">
+      </div>
+      <div class="movietwo">
+        <h5>Second Movie</h5>
+        <label class="second-movie-time-one"></label>
+        <input type="radio" name="time" value="movietwo-timeone" checked>
+        <label class="second-movie-time-two"></label>
+        <input type="radio" name="time" value="movietwo-timetwo">
+      </div>
+
+      <div class="moviethree">
+        <h5>Third Movie</h5>
+        <label class="third-movie-time-one"></label>
+        <input type="radio" name="time" value="moviethree-timeone" checked>
+        <label class="third-movie-time-two"></label>
+        <input type="radio" name="time" value="moviethree-timetwo">
+      </div>
+      <input id="number" type="number" placeholder="Age">
+      <button type="submit" class="buy">Buy</button>
+    </form>
+    <div id=error></div>
+    <div id="show">
+
+
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
